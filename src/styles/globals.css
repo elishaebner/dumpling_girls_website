@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --color-brand-red: #8b1a1a;
+  --color-brand-red-dark: #6b1212;
+  --color-brand-gold: #c9a227;
+  --color-brand-gold-light: #e0bc4a;
+  --color-brand-gray: #2a2a2a;
+  --color-brand-gray-muted: #4a4a4a;
+  --color-brand-surface: #f7f5f2;
+  --color-brand-surface-alt: #efecea;
+}
