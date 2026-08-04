@@ -105,7 +105,7 @@ export default function ContactPage() {
 
           <div className="relative aspect-[4/3] w-full overflow-hidden">
             <Image
-              src="/dg_contactus.png"
+              src="/dg_newcontactus.png"
               alt="Happy customers giving a thumbs up in front of the Dumpling Girls truck"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

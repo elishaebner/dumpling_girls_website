@@ -19,9 +19,6 @@ export default function HomePage() {
           aria-hidden="true"
         />
         <div className="relative z-10 mx-auto w-full max-w-6xl px-4 pb-16 pt-32 sm:px-6 sm:pb-24">
-          <p className="mb-3 text-lg font-semibold tracking-wide text-brand-gold sm:text-xl">
-            Dumpling Girls
-          </p>
           <h1 className="max-w-3xl text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl">
             Authentic Dumplings. On Wheels.
           </h1>
