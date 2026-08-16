@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   title: "Dumpling Girls",
   description:
     "Authentic Chinese street food from Dumpling Girls — a North Carolina food truck serving traditional-inspired Sichuan cuisine.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 const geist = Geist({
