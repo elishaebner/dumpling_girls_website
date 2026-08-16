@@ -3,7 +3,7 @@ import { type Metadata } from "next";
 export const metadata: Metadata = {
   title: "Our Menu | Dumpling Girls",
   description:
-    "Pan-fried and spicy dumpling combos, sides, and sauces from Dumpling Girls.",
+    "Pan-fried and boiled dumpling combos, sides, and sauces from Dumpling Girls.",
 };
 
 interface MenuItem {
@@ -26,33 +26,33 @@ const menuCategories: MenuCategory[] = [
       {
         name: "Chicken Dumpling Combo",
         description:
-          "Filled with ground chicken breast, celery and onions. Comes with 7 pan-fried dumplings and our signature sauce on the side (spicy or non-spicy).",
+          "Filled with ground chicken breast, celery and onions. Includes 7 delicious, pan-fried dumplings. Served with your choice of our signature spicy sauce or truck vinegar and soy sauce on the side.",
       },
       {
         name: "Shrimp & Pork Dumpling Combo",
         description:
-          "Filled with ground shrimp, pork, onions and cabbage. Comes with 7 pan-fried dumplings and our signature sauce on the side (spicy or non-spicy).",
+          "Filled with ground shrimp, pork, onions and cabbage. Includes 7 delicious, pan-fried dumplings. Served with your choice of our signature spicy sauce or truck vinegar and soy sauce on the side.",
       },
     ],
   },
   {
-    name: "Spicy Dumpling Combos",
+    name: "Boiled Dumpling Combos",
     note: "Each combo comes with 10 boiled dumplings and 2 spring rolls",
     items: [
       {
-        name: "Spicy Pork Dumpling Combo",
+        name: "Boiled Pork Dumpling Combo",
         description:
-          "Filled with pork, cabbage and onions. This 'famous' Sichuan dish comes with 10 delicious, boiled dumplings and our special spicy sauce poured over it. Topped off with cilantro and green onions.",
+          "Filled with pork, cabbage and onions. This 'famous' Sichuan dish comes with 10 delicious, boiled dumplings finished with cilantro and green onions. Served with our signature spicy sauce, poured over the top or on the side, or with our truck vinegar and soy sauce upon request.",
       },
       {
-        name: "Spicy Chicken Dumpling Combo",
+        name: "Boiled Chicken Dumpling Combo",
         description:
-          "Filled with chicken breast, celery and onions. Includes 10 delicious, boiled dumplings with our special Sichuan spicy sauce poured over it. Topped off with cilantro and green onions.",
+          "Filled with chicken breast, celery and onions. Includes 10 delicious, boiled dumplings finished with cilantro and green onions. Served with our signature Sichuan spicy sauce, poured over the top or on the side, or with our truck vinegar and soy sauce upon request.",
       },
       {
-        name: "Spicy Veggie Dumpling Combo",
+        name: "Boiled Veggie Dumpling Combo",
         description:
-          "Filled with onions, cabbage, radish, potato and dried tofu. Includes 10 delicious, boiled dumplings with our special Sichuan spicy sauce poured over it. Topped off with cilantro and green onions.",
+          "Filled with onions, cabbage, radish, potato and dried tofu. Includes 10 delicious, boiled dumplings finished with cilantro and green onions. Served with our signature Sichuan spicy sauce, poured over the top or on the side, or with our truck vinegar and soy sauce upon request.",
         tags: ["Vegan"],
       },
     ],
@@ -71,6 +71,9 @@ const menuCategories: MenuCategory[] = [
       {
         name: "Sesame Sweet Potato Balls (3pc)",
         tags: ["Vegan", "Gluten-Free"],
+      },
+      {
+        name: "Coconut Lava Balls",
       },
       {
         name: "Cucumber Salad",
@@ -92,8 +95,8 @@ const menuCategories: MenuCategory[] = [
     name: "Sauces",
     items: [
       { name: "Spicy Chili Pepper Sauce" },
+      { name: "Truck Vinegar and Soy Sauce" },
       { name: "Duck Sauce" },
-      { name: "Truck Vinegar and Soy" },
     ],
   },
 ];
